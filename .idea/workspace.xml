@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="575ac638-59d3-48f9-8e60-2a591dc7794c" name="Changes" comment="" />
+    <list default="true" id="8c320594-5f03-4a55-bf8f-7abdb2f07be2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/system/kj/KjSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/system/KjSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2tgqUlYqe9nl27D380BWtSbxdvD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2tgtwjVYOCNsVu2lKrwSAopRr0B" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,31 +30,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jtral/Desktop/Projeto Kaynan novo/backend",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jtral\Desktop\Projeto Kaynan novo\frontend\src\main\java\system" />
+      <recent name="C:\Users\jtral\Desktop\Projeto Kaynan novo\backend\src\main\java\system" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="575ac638-59d3-48f9-8e60-2a591dc7794c" name="Changes" comment="" />
-      <created>1740784084051</created>
+      <changelist id="8c320594-5f03-4a55-bf8f-7abdb2f07be2" name="Changes" comment="" />
+      <created>1740785786914</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740784084051</updated>
+      <updated>1740785786914</updated>
     </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
   </component>
 </project>
