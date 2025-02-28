@@ -78,7 +78,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>system.kj.kjsystem/system.kj.kjsystem.HelloApplication</mainClass>
+              <mainClass>system.kj.kjsystem/system.HelloApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

@@ -1,4 +1,4 @@
-package system.kj.kjsystem;
+package system;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

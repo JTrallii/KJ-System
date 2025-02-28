@@ -1,4 +1,4 @@
-package system.kj.kjsystem;
+package system;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
