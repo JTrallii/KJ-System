@@ -11,11 +11,10 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
-            .csrf(csrf -> csrf.disable()) // Desativa CSRF para evitar bloqueios no H2
-            .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-            .authorizeHttpRequests(req -> req.anyRequest().permitAll()) // 🔥 Libera acesso a tudo temporariamente
-            .headers(headers -> headers.defaultsDisabled()
-                .frameOptions(frame -> frame.disable())) // Libera H2 Console
+            .csrf(csrf -> csrf.disable()) // Desativa CSRF
+            .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // Sessão stateless
+            .authorizeHttpRequests(req -> req.anyRequest().permitAll()) // Permite todas as requisições
+            .headers(headers -> headers.disable()) // Desabilita completamente a segurança de cabeçalhos
             .build();
     }
 
