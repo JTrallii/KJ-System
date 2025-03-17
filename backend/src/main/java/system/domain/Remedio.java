@@ -43,6 +43,9 @@ public class Remedio {
         this.ativo = true;
     }
 
+    public Remedio() {
+    }
+
     public void atualizarInformacoes(AtualizarRemedioDTO remedioDTO) {
         if (remedioDTO != null) {
             this.nome = Optional.ofNullable(remedioDTO.nome()).orElse(this.nome);

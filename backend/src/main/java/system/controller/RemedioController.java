@@ -13,7 +13,7 @@ import system.service.RemedioService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/remedio")
+@RequestMapping("/remedios")
 public class RemedioController {
 
     @Autowired
@@ -42,7 +42,7 @@ public class RemedioController {
         return remedioService.detalhar(id);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     @Transactional
     public DetalharRemedioDTO atualizarRemedio(@RequestBody AtualizarRemedioDTO remedioDTO) {
         var remedio = remedioService.atualizar(remedioDTO);

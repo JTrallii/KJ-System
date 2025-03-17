@@ -3,13 +3,12 @@ package system.domain;
 import jakarta.persistence.*;
 import lombok.*;
 import system.dto.AtualizarLaboratorioDTO;
-
 import java.util.List;
 import java.util.Optional;
 
-@Getter
 @Table(name = "laboratorios")
 @Entity(name = "Laboratorio")
+@Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor

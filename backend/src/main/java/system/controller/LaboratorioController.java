@@ -10,7 +10,7 @@ import system.service.LaboratorioService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/laboratorio")
+@RequestMapping("/laboratorios")
 public class LaboratorioController {
 
     @Autowired
@@ -39,7 +39,7 @@ public class LaboratorioController {
         return laboratorioService.detalhar(id);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     @Transactional
     public DetalharLaboratorioDTO atualizarLaboratorio(@RequestBody AtualizarLaboratorioDTO laboratorioDTO) {
         var laboratorio = laboratorioService.atualizar(laboratorioDTO);
