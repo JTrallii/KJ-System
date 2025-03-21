@@ -12,7 +12,6 @@ import java.util.Optional;
 @Entity(name = "Remedio")
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class Remedio {
@@ -128,6 +127,8 @@ public class Remedio {
     public void setAtivo(boolean ativo) {
         this.ativo = ativo;
     }
+
+
 }
 
 

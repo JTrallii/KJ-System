@@ -63,4 +63,9 @@ public class Laboratorio {
     public void setAtivo(boolean ativo) {
         this.ativo = ativo;
     }
+
+    @Override
+    public String toString() {
+        return nome;
+    }
 }

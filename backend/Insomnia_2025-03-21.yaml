@@ -1,0 +1,302 @@
+type: collection.insomnia.rest/5.0
+name: KJ
+meta:
+  id: wrk_d7c1c7435cc741f8bf6e82f0e0c18138
+  created: 1742235018917
+  modified: 1742235018917
+collection:
+  - url: http://localhost:8080/laboratorios
+    name: Cadastrar laboratorio
+    meta:
+      id: req_c93a57f1218d4719839a48357a36e446
+      created: 1742235151990
+      modified: 1742320128618
+      isPrivate: false
+      sortKey: -1742235151990
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Eurofarma"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/laboratorios/ativos
+    name: Listar laboratorios ativos
+    meta:
+      id: req_1cfd9cb537a147f7843b46f385d9f6fe
+      created: 1742235889555
+      modified: 1742236555359
+      isPrivate: false
+      sortKey: -1738741828521
+    method: GET
+    body:
+      mimeType: application/json
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/laboratorios
+    name: Listar todos os laboratorios
+    meta:
+      id: req_a5da0b60766e40149715f0831d2a2803
+      created: 1742235941220
+      modified: 1742236570060
+      isPrivate: false
+      sortKey: -1736995166786.5
+    method: GET
+    body:
+      mimeType: application/json
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/laboratorios/33
+    name: Atualizar laboratorio
+    meta:
+      id: req_da8f4bd282a24e8b93b7c55f1c62fa07
+      created: 1742235973160
+      modified: 1742236604768
+      isPrivate: false
+      sortKey: -1736121835919.25
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id": 33,
+        	"nome": "Ultra Farma"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/laboratorios/33
+    name: Deletar laboratorio
+    meta:
+      id: req_12bf441a1610468b8669141fbf2f57de
+      created: 1742236618237
+      modified: 1742236628617
+      isPrivate: false
+      sortKey: -1735685170485.625
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id": 33
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/remedios
+    name: Cadastrar remedio
+    meta:
+      id: req_dc3efe3c516742ba9c65abb41c0d9c73
+      created: 1742236760450
+      modified: 1742320293948
+      isPrivate: false
+      sortKey: -1735685170385.625
+    method: POST
+    body:
+      mimeType: application/json
+      text: >-
+        {
+            "nome": "Omeprazol",
+            "laboratorio": "Eurofarma",
+            "principioAtivo": "Omeprazol",
+            "posologia": "1 cápsula de 20mg ao dia, antes das refeições.",
+            "indicacoes": "Tratamento de úlceras gástricas e refluxo gastroesofágico.",
+            "contraIndicacoes": "Hipersensibilidade ao omeprazol.",
+            "categoria": "Digestivo"
+          }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/remedios
+    name: Listar todos os remedios
+    meta:
+      id: req_dae4cdb54eaa4a80b4671234813e244d
+      created: 1742237114071
+      modified: 1742237120837
+      isPrivate: false
+      sortKey: -1735466837718.8125
+    method: GET
+    body:
+      mimeType: application/json
+      text: "\n  "
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/remedios/ativos
+    name: Listar todos os remedios ativos
+    meta:
+      id: req_5f3516e4da8c485e8f457773af6cfff2
+      created: 1742237259041
+      modified: 1742237262689
+      isPrivate: false
+      sortKey: -1735357671385.4062
+    method: GET
+    body:
+      mimeType: application/json
+      text: "\n  "
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/remedios/1
+    name: atualizar remedio
+    meta:
+      id: req_668fcc9a69db47888681fc154d7627c6
+      created: 1742320007578
+      modified: 1742561576285
+      isPrivate: false
+      sortKey: -1735303088218.7031
+    method: PUT
+    body:
+      mimeType: application/json
+      text: >-2
+        
+          {
+        		"id": 1,
+        		"nome": "Dipropionato de Betametasona",
+        		"laboratorio": "Cimed",
+        		"principioAtivo": "Betametasona",
+        		"posologia": "Aplicação intramuscular ou subcutânea conforme orientação médica.",
+        		"indicacoes": "Tratamento de doenças inflamatórias e alérgicas.",
+        		"contraIndicacoes": "Infecções virais, bacterianas ou fúngicas não tratadas.",
+        		"categoria": "Inflamação"
+        	}
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/remedios/1
+    name: deletar remedio
+    meta:
+      id: req_28c4537d057c470fa077c6977566d122
+      created: 1742561692876
+      modified: 1742561705369
+      isPrivate: false
+      sortKey: -1735275796635.3516
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: |-2
+        
+          {
+        		"id": 1
+        	}
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_4600e62250d32d02137442c8573d40ca7374c114
+    created: 1742235018919
+    modified: 1742235018919
+environments:
+  name: Base Environment
+  meta:
+    id: env_4600e62250d32d02137442c8573d40ca7374c114
+    created: 1742235018918
+    modified: 1742235018918
+    isPrivate: false
